@@ -9,7 +9,10 @@ theme = "hugo-journal"
 [params]
   description = "Ege's personal blog"
   githubUsername = "egegunes"
+  linkedin = "egegunes"
+  email = "egegunes@gmail.com"
   tagline = "Hi I'm Ege. Welcome to my blog."
+  googleanalytics = "UA-103076598-5"
 [params.work]
   jobTitle = "Developer"
   company = "Artistanbul"

@@ -14,12 +14,16 @@
           <br>
 
           {{ if isset .Site.Params "githubusername" -}}
-          <a itemprop="sameAs" href="https://github.com/{{ .Site.Params.githubUsername }}" title="GitHub">GH</a>
+          <a itemprop="sameAs" href="https://github.com/{{ .Site.Params.githubUsername }}" title="GitHub">Github</a>
           {{- end }}
 
-          {{ if isset .Site.Params "twitterusername" -}}
-          <a itemprop="sameAs" href="https://twitter.com/{{ .Site.Params.twitterUsername }}" title="Twitter">TW</a>
-          {{- end}}
+          {{ if isset .Site.Params "email" -}}
+          <a itemprop="sameAs" href="mailto:{{ .Site.Params.email }}" title="Email">Email</a>
+          {{- end }}
+
+          {{ if isset .Site.Params "linkedin" -}}
+          <a itemprop="sameAs" href="https://linkedin.com/in/{{ .Site.Params.linkedin }}" title="LinkedIn">LinkedIn</a>
+          {{- end }}
 
           {{ if isset .Site.Params "gpg" -}}
           <a itemprop="sameAs" href="{{ .Site.Params.gpg.link }}" title="GPG {{ .Site.Params.gpg.key }} (fingerprint: {{ .Site.Params.gpg.fingerprint }})">GPG</a>
@@ -32,6 +36,16 @@
 
   <script src="{{ "js/highlight.pack.js" | relURL }}"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  {{ if isset .Site.Params "googleanalytics" -}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleanalytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    gtag('config', '{{ .Site.Params.googleanalytics }}');
+    </script>
+  {{- end }}
 
   </body>
 </html>
