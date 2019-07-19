@@ -1,0 +1,17 @@
+---
+title: "New project: egegunes.rocks"
+date: "2019-06-26"
+draft: false
+---
+
+I like direct feedback whether is positive or negative.
+
+
+I created [egegunes.rocks](https://egegunes.rocks) for that. It's a litte web
+application to allow people provide anonymous feedback about me.
+
+It was also a opportunity to continue my [serverless
+journey](https://ege.dev/post/running-python-on-aws-lambda/). It's running on
+AWS Lambda and stores its data in AWS DynamoDB.
+
+You can see the [source](https://github.com/egegunes/egegunes.rocks) on Github.
