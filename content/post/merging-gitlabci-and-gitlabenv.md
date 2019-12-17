@@ -22,6 +22,8 @@ turns to
 $ gitlabci env list group/project
 ```
 
+and
+
 ```
 $ gitlabci list group/project
 ```
