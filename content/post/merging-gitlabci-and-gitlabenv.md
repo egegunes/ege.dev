@@ -10,8 +10,26 @@ Recently I announced two new projects:
 I faced while using Gitlab CI. Now I'm merging two projects into one. Therefore
 `gitlabci` is the successor of `gitlabenv`.
 
-After merge, `gitlabenv list group/project` turns to `gitlabci env list
-group/project` and `gitlanci list group/project` turns to `gitlabci pipeline
-list group/project`.
+After merge;
+
+```
+$ gitlabenv list group/project
+```
+
+turns to
+
+```
+$ gitlabci env list group/project
+```
+
+```
+$ gitlabci list group/project
+```
+
+turns to
+
+```
+$ gitlabci pipeline list group/project
+```
 
 [Download gitlabci](https://github.com/egegunes/gitlabci/releases) here.
