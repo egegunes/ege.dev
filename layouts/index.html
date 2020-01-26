@@ -1,0 +1,30 @@
+{{ partial "top.html" . }}
+
+  <article class="posts">
+
+    {{ range site.RegularPages.GroupByDate "2006" -}}
+    <section>
+      <h2>{{ .Key }}</h2>
+
+      <ol>
+        {{ range .Pages -}}
+          {{ if or (eq .Type "microposts") (eq .Type "micropost") }}
+            <li>
+              <time datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
+              <article>{{ .Content }}</article>
+            </li>
+          {{ end }}
+          {{ if or (eq .Type "posts") (eq .Type "post") }}
+            <li>
+              <time datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+          {{ end }}
+        {{- end }}
+      </ol>
+    </section>
+    {{ end }}
+
+  </article>
+
+{{ partial "bottom.html" . }}
