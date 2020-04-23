@@ -4,14 +4,14 @@ date: 2020-04-23T00:21:24+03:00
 draft: false
 ---
 
-Last night a friend of mine asked help for her homework on operating systems.
-It's about building a simple Linux kernel module and linked list operations.  I
-hadn't worked on a kernel module before but somehow knew the basics are simple
-to grasp. This is the transcript of my experience.
+Last night a friend of mine asked for help for her homework on operating
+systems. It's about building a simple Linux kernel module and linked list
+operations.  I hadn't worked on a kernel module before but somehow knew the
+basics are simple to grasp. This is the transcript of my experience.
 
 ## The basics
 
-Kernel modules have to entrypoints: `init` and `exit`. The `init` function runs
+Kernel modules have two entrypoints: `init` and `exit`. The `init` function runs
 when you run `insmod <module>` and `exit` function runs when you run `rmmod
 <module>`.
 
@@ -27,7 +27,7 @@ MODULE_DESCRIPTION("Hello");
 static int __init hello_init(void) {
     printk(KERN_INFO "Hello World");
 
-    // If your init function returns a non-zero code,
+    // If your init function returns a non-zero value,
     // kernel won't load your module.
     return 0;
 }
@@ -189,4 +189,3 @@ was able to track down the problem and eventually fixed it.
 1. https://www.tldp.org/LDP/lkmpg/2.6/html/c38.html
 2. https://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 3. https://opensourceforu.com/2011/01/understanding-a-kernel-oops/
-4. https://kernelnewbies.org/FAQ/LinkedLists
