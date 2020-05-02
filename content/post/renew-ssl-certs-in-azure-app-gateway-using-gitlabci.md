@@ -14,7 +14,7 @@ virtual server just to renew a certificate and no, I don't want to use Azure
 Devops pipelines. I already have a CI tool that I like and even built some
 tools for it!
 
-Today, I sat and didn't get up until work is done! I'll explain my process so
+Today, I sat down and didn't get up until work is done! I'll explain my process so
 maybe someone luckier than me could find and use it.
 
 ## The Problem
