@@ -114,5 +114,8 @@ Naturally, I prefer `gitlabci`:
 $ gitlabci pipeline create group/project master -e DOMAIN=api.example.com
 ````
 
+We can also create scheduled pipelines in the future. I need to make some
+changes to don't make unnecessary updates to Gateway, though.
+
 Now, that's a solution that fits to my liking!
 
