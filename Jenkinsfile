@@ -2,12 +2,12 @@ pipeline {
    agent any
 
    stages {
-      stage('Build') {
+      stage("Build") {
         steps {
             sh "hugo"
         }
       }
-      stage('Deploy') {
+      stage("Deploy") {
         steps {
             s3Upload(
                 profileName: "jenkins_s3publisher",
