@@ -1,7 +1,6 @@
 baseURL = "https://ege.dev/"
 languageCode = "en-us"
 title = "ege.dev"
-theme = "hugo-journal"
 
 [author]
   name = "Ege Güneş"
@@ -9,7 +8,7 @@ theme = "hugo-journal"
 [params]
   description = "Ege's personal blog"
   githubUsername = "egegunes"
-  linkedin = "egegunes"
+  linkedinusername = "egegunes"
   email = "egegunes@gmail.com"
   tagline = "Hi I'm Ege. Welcome to my blog."
 [params.work]
