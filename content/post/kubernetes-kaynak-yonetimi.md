@@ -1,3 +1,9 @@
+---
+title: "Kubernetes Kaynak Yönetimi"
+date: "2020-11-13"
+draft: false
+---
+
 2017'de bir etkinlikte eski Kartaca çalışanlarından Bekir Doğan'ı dinleme şansı
 bulmuş[^0] ve daha 2005 yılında yönettikleri tüm servisleri OpenVZ[^1] ile
 konteynerler halinde kurup dağıttıklarını dinlemiş ve çok etkilenmiştim.
