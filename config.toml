@@ -19,3 +19,8 @@ title = "ege.dev"
   key = "0x505B97C85A1D0305"
   fingerprint = "C71C E137 EEC9 64E1 EA5C  365C 505B 97C8 5A1D 0305"
   link = "https://ege.dev/publickey.txt"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
