@@ -1,26 +1,32 @@
 baseURL = "https://ege.dev/"
 languageCode = "en-us"
 title = "ege.dev"
+theme = "solar-theme-hugo"
+paginate = 10
+pygmentsStyle = "solarized-dark"
 
 [author]
   name = "Ege Güneş"
   homepage = "https://ege.dev/"
 [params]
-  description = "Ege's personal blog"
-  githubUsername = "egegunes"
-  linkedinusername = "egegunes"
-  email = "egegunes@gmail.com"
-  tagline = "Hi I'm Ege. Welcome to my blog."
-[params.work]
-  jobTitle = "Software Engineer"
-  company = "Percona"
-  companyUrl = "https://percona.com/"
-[params.gpg]
-  key = "0x505B97C85A1D0305"
-  fingerprint = "C71C E137 EEC9 64E1 EA5C  365C 505B 97C8 5A1D 0305"
-  link = "https://ege.dev/publickey.txt"
+  scheme = "preference" # light, dark, gray or preference
+  description = "Hi, I'm Ege. Welcome to my blog."
 
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+  [[menu.main]]
+    name = "GPG"
+    url = "https://ege.dev/publickey.txt"
+  [[menu.other]]
+    name = "github.com/egegunes"
+    url = "https://github.com/egegunes"
+  [[menu.other]]
+    name = "twitter.com/eomecon"
+    url = "https://twitter.com/eomecon"

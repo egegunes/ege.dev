@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ege.dev
 ---
 # egegunes
 
