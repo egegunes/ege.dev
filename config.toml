@@ -24,9 +24,15 @@ pygmentsStyle = "solarized-dark"
   [[menu.main]]
     name = "GPG"
     url = "https://ege.dev/publickey.txt"
-  [[menu.other]]
+  [[menu.social]]
     name = "github.com/egegunes"
     url = "https://github.com/egegunes"
-  [[menu.other]]
+  [[menu.social]]
     name = "twitter.com/eomecon"
     url = "https://twitter.com/eomecon"
+  [[menu.other]]
+    name = "tecessus.com"
+    url = "https://tecessus.com"
+  [[menu.other]]
+    name = "autosoteric.net"
+    url = "https://autosoteric.net"
