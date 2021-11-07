@@ -1,38 +1,39 @@
-baseURL = "https://ege.dev/"
-languageCode = "en-us"
-title = "ege.dev"
-theme = "solar-theme-hugo"
-paginate = 10
-pygmentsStyle = "solarized-dark"
+baseURL             = "https://ege.dev/"
+languageCode        = "en-us"
+title               = "ege.dev"
+theme               = "sam"
+pygmentsStyle       = "monokai"
+pygmentsCodefences  = true
 
-[author]
-  name = "Ege Güneş"
-  homepage = "https://ege.dev/"
 [params]
-  scheme = "preference" # light, dark, gray or preference
-  description = "Hi, I'm Ege. Welcome to my blog."
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "home"
+    footerText           = "Ege Güneş - Software Engineer, Percona"
 
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
+# Metadata for Open Graph and Twitter
+    description          = "Ege's personal blog"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "ege.dev"
+    # rss                = ""
 
-[menu]
-  [[menu.main]]
-    name = "RSS"
-    url = "/index.xml"
-  [[menu.main]]
-    name = "GPG"
-    url = "https://ege.dev/publickey.txt"
-  [[menu.social]]
-    name = "github.com/egegunes"
-    url = "https://github.com/egegunes"
-  [[menu.social]]
-    name = "twitter.com/eomecon"
-    url = "https://twitter.com/eomecon"
-  [[menu.other]]
-    name = "tecessus.com"
-    url = "https://tecessus.com"
-  [[menu.other]]
-    name = "autosoteric.net"
-    url = "https://autosoteric.net"
+
+[[params.mainMenu]]
+    link = "/photography"
+    text = "photography"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
+    link = "/writing"
+    text = "writing"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "who dis?"
+
+[imaging]
+    quality = 75
