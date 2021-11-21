@@ -3,4 +3,4 @@
 	url = https://github.com/egegunes/solar-theme-hugo.git
 [submodule "themes/sam"]
 	path = themes/sam
-	url = https://github.com/victoriadrake/hugo-theme-sam.git
+	url = https://github.com/egegunes/hugo-theme-sam.git

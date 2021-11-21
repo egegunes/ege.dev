@@ -4,12 +4,18 @@ date: 2018-06-23T15:58:11Z
 draft: false
 ---
 
-Hello, I'm Ege Güneş.
+Hi, I'm Ege.
 
-I'm a software developer. Also ~~in parallel I'm studying law~~ I've finished Law school.
+I'm a software engineer. Currently working on Kubernetes operators for
+Percona database distributions.
 
-I like all things open source and decentralized.
+My enthusiasm for computers initiated by the admiration to \*unix and it's
+hacker culture. I like minimalist setups and having a toolbox of my own. I
+[default to open](https://github.com/egegunes) everything I build.
 
-Here is my [GitHub](https://github.com/egegunes) and [LinkedIn](https://www.linkedin.com/in/egegunes/).
+I'm using Go in my day-to-day work. I extensively used Python/Django to put
+things in production and it's still my default choice to GET THINGS DONE. I
+don't have rigid preferences when it comes to technology stack.
 
-You can always reach me by [email](mailto:egegunes@gmail.com).
+I enjoy listening other's stories and telling mine. If you have a story to
+tell, write to me at `ege at gmail.com`
