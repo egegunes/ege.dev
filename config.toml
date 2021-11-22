@@ -18,6 +18,8 @@ pygmentsCodefences  = true
     title                = "ege.dev"
     # rss                = ""
 
+[markup.goldmark.renderer]
+    unsafe = true
 
 [[params.mainMenu]]
     link = "/posts"
