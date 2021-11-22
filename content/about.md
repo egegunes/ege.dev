@@ -9,11 +9,11 @@ Hi, I'm Ege.
 I'm a software engineer. Currently working on Kubernetes operators for
 Percona database distributions.
 
-My enthusiasm for computers initiated by the admiration to \*unix and it's
+My enthusiasm for computers initiated by the admiration to \*nix and it's
 hacker culture. I like minimalist setups and having a toolbox of my own. I
 [default to open](https://github.com/egegunes) everything I build.
 
-I'm using Go in my day-to-day work. I extensively used Python/Django to put
+I use Go in my day-to-day work. I extensively used Python/Django to put
 things in production and it's still my default choice to GET THINGS DONE. I
 don't have rigid preferences when it comes to technology stack.
 
