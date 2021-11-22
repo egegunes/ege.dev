@@ -6,20 +6,21 @@ pygmentsStyle       = "monokai"
 pygmentsCodefences  = true
 
 [params]
-    dateform             = "Mon Jan 02, 2006"
-    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
-    favicon              = "sam.ico"
-    homepage             = "home"
-    footerText           = "Ege Güneş - Software Engineer, Percona"
-
-# Metadata for Open Graph and Twitter
-    description          = "Ege's personal blog"               # Max 160 characters show in search results
-    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
-    title                = "ege.dev"
-    # rss                = ""
+    dateform        = "Mon Jan 02, 2006"
+    dateformfull    = "Mon Jan 2 2006 15:04:05 EST"
+    favicon         = "sam.ico"
+    homepage        = "home"
+    footerText      = "Ege Güneş"
+    description     = "Hello. I'm Ege." # Max 160 characters show in search results
+    images          = ["tn.png"] # Image that shows on Twitter cards and Open Graph links to the site
+    title           = "ege.dev"
+    rss             = "ege.dev"
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[imaging]
+    quality = 75
 
 [[params.mainMenu]]
     link = "/posts"
@@ -34,8 +35,9 @@ pygmentsCodefences  = true
     text = "writing"
 
 [[params.mainMenu]]
+    link = "/index.xml"
+    text = "feed"
+
+[[params.mainMenu]]
     link = "/about"
     text = "about"
-
-[imaging]
-    quality = 75
