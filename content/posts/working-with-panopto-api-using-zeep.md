@@ -1,5 +1,5 @@
 ---
-title: "Working With Panopto Api Using Zeep"
+title: "Working With Panopto API Using Zeep"
 date: 2018-06-16T15:48:50Z
 showDate: true
 draft: false

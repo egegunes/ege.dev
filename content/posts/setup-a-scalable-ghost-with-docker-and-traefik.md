@@ -1,5 +1,5 @@
 ---
-title: "Setup a Scalable Ghost With Docker and Traefik"
+title: "Setup a Scalable Ghost with Docker and Traefik"
 date: 2018-06-08T15:50:10Z
 showDate: true
 draft: false

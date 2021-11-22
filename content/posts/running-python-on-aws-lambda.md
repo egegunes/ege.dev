@@ -1,5 +1,5 @@
 ---
-title: "Running Python on Aws Lambda"
+title: "Running Python on AWS Lambda"
 date: 2017-10-28T15:49:35Z
 showDate: true
 draft: false
