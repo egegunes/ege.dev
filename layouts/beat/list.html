@@ -1,0 +1,16 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+<nav role="navigation">
+    <ul>
+        {{ range .Pages }}
+        <li>
+            <a href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+            --
+            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}}
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}
