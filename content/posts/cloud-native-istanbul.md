@@ -3,6 +3,7 @@ title: "Cloud Native Istanbul"
 date: 2018-11-11T21:13:00Z
 showDate: true
 draft: false
+aliases: [/post/cloud-native-istanbul/]
 ---
 
 There is a new meetup in town that I'm very excited about: [Cloud Native

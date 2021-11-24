@@ -3,6 +3,7 @@ title: "RedHat Forum Istanbul 2018"
 date: 2018-11-08T20:48:50Z
 showDate: true
 draft: false
+aliases: [/post/redhat-forum-istanbul-2018/]
 ---
 
 I attended to Red Hat Forum Istanbul like [last

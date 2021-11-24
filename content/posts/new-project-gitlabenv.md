@@ -3,6 +3,7 @@ title: "New project: Gitlabenv"
 date: "2019-07-14"
 showDate: true
 draft: false
+aliases: [/post/new-project-gitlabenv/]
 ---
 
 At Artistanbul, we started using Gitlab CI. While building our pipeline, the

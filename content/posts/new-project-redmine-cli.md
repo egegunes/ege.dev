@@ -3,6 +3,7 @@ title: "New project: Redmine CLI"
 date: "2019-05-23"
 showDate: true
 draft: false
+aliases: [/post/new-project-redmine-cli/]
 ---
 
 I'm happy to announce my latest project [Redmine

@@ -3,6 +3,7 @@ title: "Definitive Guide to aerc"
 date: 2020-05-20T22:43:27+03:00
 showDate: true
 draft: true
+aliases: [/post/definitive-guide-to-aerc/]
 ---
 
 ## Important keybindings

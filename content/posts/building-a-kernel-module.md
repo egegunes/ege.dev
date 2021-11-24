@@ -3,6 +3,7 @@ title: "Building a Linux Kernel Module"
 date: 2020-04-23T00:21:24+03:00
 showDate: true
 draft: false
+aliases: [/post/building-a-kernel-module/]
 ---
 
 Last night a friend of mine asked for help for her homework on operating

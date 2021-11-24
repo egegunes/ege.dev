@@ -3,6 +3,7 @@ title: "Packaging a Python program for Fedora"
 date: 2019-09-29T13:14:02+03:00
 showDate: true
 draft: false
+aliases: [/post/packaging-a-python-program-for-fedora/]
 ---
 
 Being a Fedora contributor is one of my long term goals. Recently I took the

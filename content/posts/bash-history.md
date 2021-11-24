@@ -3,6 +3,7 @@ title: "My Bash History"
 date: "2019-01-29"
 showDate: true
 draft: false
+aliases: [/post/bash-history/]
 ---
 
 This evening, I found [ginh.sh](https://github.com/crclark96/ginh) on [Changelog

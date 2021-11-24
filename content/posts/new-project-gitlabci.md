@@ -3,6 +3,7 @@ title: "New project: gitlabci"
 date: 2019-12-02T00:58:39+03:00
 showDate: true
 draft: false
+aliases: [/post/new-project-gitlabci/]
 ---
 
 At Artistanbul, we usually have multiple repositories for a client and a

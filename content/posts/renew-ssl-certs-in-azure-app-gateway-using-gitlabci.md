@@ -3,6 +3,7 @@ title: "Renew SSL Certs on Azure Application Gateway with Gitlab CI"
 date: 2020-05-01T23:40:24+03:00
 showDate: true
 draft: false
+aliases: [/post/renew-ssl-certs-in-azure-app-gateway-using-gitlabci/]
 ---
 
 Renewing SSL certificates on Azure Application Gateway is a regular toil for

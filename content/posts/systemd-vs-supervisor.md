@@ -3,6 +3,7 @@ title: "Systemd vs Supervisor"
 date: 2017-08-25T15:49:49Z
 showDate: true
 draft: false
+aliases: [/post/systemd-vs-supervisor/]
 ---
 
 [Supervisord](http://supervisord.org/) is a well-known tool among developers

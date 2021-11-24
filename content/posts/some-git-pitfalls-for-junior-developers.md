@@ -3,6 +3,7 @@ title: "Some Git Pitfalls for Junior Developers"
 date: 2017-12-28T15:49:13Z
 showDate: true
 draft: false
+aliases: [/post/some-git-pitfalls-for-junior-developers/]
 ---
 
 Getting started with git is hard. Especially if you alone and don't have an experienced developer around. In this post I won't help you with basics of git, but share some pitfalls that I fell.

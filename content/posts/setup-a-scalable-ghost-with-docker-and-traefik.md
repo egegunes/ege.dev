@@ -3,6 +3,7 @@ title: "Setup a Scalable Ghost with Docker and Traefik"
 date: 2018-06-08T15:50:10Z
 showDate: true
 draft: false
+aliases: [/post/setup-a-scalable-ghost-with-docker-and-traefik/]
 ---
 
 I was hosting my static web site on Netlify. Then Github announced support for

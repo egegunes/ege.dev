@@ -3,6 +3,7 @@ title: "Working With Panopto API Using Zeep"
 date: 2018-06-16T15:48:50Z
 showDate: true
 draft: false
+aliases: [/post/working-with-panopto-api-using-zeep/]
 ---
 
 [Panopto](www.panopto.com) is a video recording and publishing platform specifically targeted for education. Recently I had to work with their API and had some trouble with it. It’s only fair if I say their documentation is not good. There are some examples from [Graham’s blog](http://www.mediaguy.co.uk/panopto-api), but they are for C# mostly. I interacted with their support team several times and they were always friendly and helpful. So, I wanted to write a post to help people to use Panopto API using Python.

@@ -3,6 +3,7 @@ title: "Running Python on AWS Lambda"
 date: 2017-10-28T15:49:35Z
 showDate: true
 draft: false
+aliases: [/post/running-python-on-aws-lambda/]
 ---
 
 The idea of "serverless" fascinates me since I first heard it. Write some code, deploy and voila, your code is globally available. I awaited a chance for get my feet wet and last week I got. In [Artistanbul](https://www.artistanbul.io) we were toying with the idea to create a Facebook Messenger chatbot for one of our clients. Chatbots are perfect for going serverless, so I volunteered for creating a prototype.
