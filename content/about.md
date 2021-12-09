@@ -21,4 +21,4 @@ things in production and it's still my default choice to GET THINGS DONE. I
 don't have rigid preferences when it comes to technology stack.
 
 I enjoy listening other's stories and telling mine. If you have a story to
-tell, write to me at `ege at gmail.com`
+tell, write to me at `ege at gmail dot com`
