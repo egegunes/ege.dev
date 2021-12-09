@@ -4,6 +4,9 @@ date: 2018-06-23T15:58:11Z
 draft: false
 ---
 
+<img src="/images/comic-ege-circle.png" alt="ege" style="width:200px;"/>
+
+
 Hi, I'm Ege.
 
 I'm a software engineer. Currently working on Kubernetes operators for
