@@ -1,7 +1,7 @@
 ---
-title: "Photography"
+title: "Photos"
 type: "gallery"
-url: "/photography"
+url: "/photos"
 maxWidth: "800x"
 clickablePhotos: true
 keepAspectRatio: true
