@@ -9,16 +9,17 @@ draft: false
 
 Hi, I'm Ege.
 
-I'm a software engineer. Currently working on Kubernetes operators for
-Percona database distributions.
+I'm currently working at Percona on Kubernetes operators for MySQL, MongoDB
+and PostgreSQL, helping teams run open source databases on Kubernetes. All the
+work we do in Percona is open source and available [on GitHub](https://github.com/percona/).
 
-My enthusiasm for computers initiated by the admiration to \*nix and it's
-hacker culture. I like minimalist setups and having a toolbox of my own. I
-[default to open](https://github.com/egegunes) everything I build.
+I got into programming by my fascination with Linux. I like minimalist setups and
+having a toolbox of CLI tools/scripts of my own. I [default to
+open](https://github.com/egegunes) everything I build.
 
-I use Go in my day-to-day work. I extensively used Python/Django to put
-things in production and it's still my default choice to GET THINGS DONE. I
-don't have rigid preferences when it comes to technology stack.
+I mostly write Go for the operators, but I've shipped plenty of PHP, Python and
+JavaScript in production. I don't have rigid preferences when it comes to
+technology stack.
 
-I enjoy listening other's stories and telling mine. If you have a story to
+I enjoy listening others' stories and telling mine. If you have a story to
 tell, write to me at `egegunes at gmail dot com`.
