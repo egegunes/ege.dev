@@ -1,0 +1,30 @@
+[[entries]]
+title = "about"
+
+  [[entries.entries]]
+  title = "living in Istanbul, Turkey"
+
+  [[entries.entries]]
+  title = "working on <a href='https://www.percona.com/software/percona-operators'>Percona Kubernetes Operators</a>"
+
+  [[entries.entries]]
+  title = "github.com/egegunes"
+  url = "https://github.com/egegunes"
+
+  [[entries.entries]]
+  title = "resume"
+  url = "/resume.pdf"
+
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  section = "posts"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"

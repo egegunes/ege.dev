@@ -1,7 +1,7 @@
 baseURL             = "https://ege.dev/"
 languageCode        = "en-us"
 title               = "ege.dev"
-theme               = "sam"
+theme               = "nostyleplease"
 pygmentsStyle       = "monokai"
 pygmentsCodefences  = true
 

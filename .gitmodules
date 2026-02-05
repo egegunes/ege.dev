@@ -4,3 +4,6 @@
 [submodule "themes/sam"]
 	path = themes/sam
 	url = https://github.com/egegunes/hugo-theme-sam.git
+[submodule "themes/nostyleplease"]
+	path = themes/nostyleplease
+	url = git@github.com:hanwenguo/hugo-theme-nostyleplease.git
