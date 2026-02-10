@@ -47,7 +47,7 @@ Today, operator is running on at least **1000 clusters**.
 <div class="col" style="text-align: right;">
 <p>MySQL 8.0 & 8.4</p>
 <p>Automated failovers</p>
-<p>User management</p>
+<p>Monitoring</p>
 <p>Openshift support</p>
 </div>
 
