@@ -24,11 +24,7 @@ pygmentsCodefences  = true
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "posts"
-
-[[params.mainMenu]]
-    link = "/photos"
-    text = "photos"
+    text = "archive"
 
 [[params.mainMenu]]
     link = "/index.xml"

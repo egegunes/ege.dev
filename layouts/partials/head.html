@@ -19,6 +19,14 @@
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
 
+  <style>
+    .post-preview h2 { margin-top: 0; margin-bottom: 0.3rem; }
+    .post-preview time { opacity: 0.6; font-size: 0.9em; }
+    .post-preview p { margin: 0.5rem 0; }
+    header nav { margin-top: 0.5rem; }
+    header nav a { margin-right: 1rem; }
+  </style>
+
   <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://cdn.usefathom.com/script.js" data-site="HGORAWFR" defer></script>
   <!-- / Fathom -->

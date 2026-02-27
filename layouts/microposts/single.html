@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="micropost">
+    <p class="post-meta">
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.dateformfull }}
+        </time>
+    </p>
+
+    {{ if .Params.externalurl }}
+        <h1><a href="{{ .Params.externalurl }}">{{ .Title }}</a></h1>
+    {{ else }}
+        <h1>{{ .Title }}</h1>
+    {{ end }}
+
+    {{ .Content }}
+    <hr>
+</article>
+{{ end }}

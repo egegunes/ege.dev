@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ range .Pages }}
+<article class="micropost">
+    {{ .Content }}
+    <a href="{{ .Permalink | relURL }}"><time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.dateformfull }}</time></a>
+</article>
+<hr>
+{{ end }}
+
+{{ end }}
