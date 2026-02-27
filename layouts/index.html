@@ -26,7 +26,7 @@
     <article class="post-preview">
         <h2><a href="{{ .Permalink | relURL }}">{{ .Title }}</a></h2>
         <time>{{ .Date | time.Format site.Params.dateform }}</time>
-        <p>{{ .Summary | plainify | truncate 300 }}</p>
+        <p>{{ .Summary | plainify | htmlUnescape | truncate 300 }}</p>
         {{- if .Truncated }}
         <a href="{{ .Permalink | relURL }}">Continue reading &raquo;</a>
         {{- end }}
