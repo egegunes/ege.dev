@@ -68,10 +68,10 @@ HAProxy attempts to close all FDs. What does *all* mean? And then it restores
 limits to some value? What's that value?
 
 All FDs means closing all from FD 0 to FD soft limit. `my_closefrom` function
-first polls the FD and then closes it if it gets `POLLNVAL`. OK, this explains
-the excessive polling I see with strace. But it's the default HAProxy behavior
-for a long time, why didn't we see the same problem on some other platform, i.e
-GKE?
+first polls the FD and then closes it if poll doesn't fail with `POLLNVAL`. OK,
+this explains the excessive polling I see with strace. But it's the default
+HAProxy behavior for a long time, why didn't we see the same problem on some
+other platform, i.e GKE?
 
 The answer is simple. Turns out, DOKS has a much higher soft limit than GKE. On
 GKE `ulimit -n` returns 1048576, on DOKS 1073741816! But still there was
