@@ -1,6 +1,7 @@
 ---
 title: "gremlins in digitalocean"
 date: 2026-03-12
+draft: true
 ---
 
 We are in the process of certifying our operators for DigitalOcean Kubernetes
