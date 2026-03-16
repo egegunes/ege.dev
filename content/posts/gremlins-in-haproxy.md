@@ -4,7 +4,7 @@ date: 2026-03-12
 draft: false
 ---
 
-We are in the process of certifying our operators for <redacted>. We started
+We are in the process of certifying our operators for `<redacted>`. We started
 with PostgreSQL Operator and it worked just fine without any adjustments. Then
 we moved on to our MySQL Operators and it surfaced a problem in HAProxy.
 
@@ -13,14 +13,14 @@ instances as the proxy to have read/write splitting. We have our own external
 scripts to perform checks for each backend for determining if a MySQL server is
 good for that particular backend.
 
-After deploying the operator on <redacted>, we realized that our HAProxy pods are
+After deploying the operator on `<redacted>`, we realized that our HAProxy pods are
 failing to get ready because all external checks are failing due to timeouts.
 But why?
 
 It's gotta be the DNS. It's always DNS, isn't it? Turns out, no. I tested DNS
 queries from the HAProxy container and it seems they were fast.
 
-Could this be AppArmor? Maybe <redacted> has stricter AppArmor profiles? I configured
+Could this be AppArmor? Maybe `<redacted>` has stricter AppArmor profiles? I configured
 HAProxy pods to be `Unconfined`. It didn't help either.
 
 Then I decided to increase the timeout from 10 seconds to 30 seconds, just to
@@ -73,8 +73,8 @@ this explains the excessive polling I see with strace. But it's the default
 HAProxy behavior for a long time, why didn't we see the same problem on some
 other platform, i.e GKE?
 
-The answer is simple. Turns out, <redacted> has a much higher soft limit than GKE. On
-GKE `ulimit -n` returns 1048576, on <redacted> 1073741816! But still there was
+The answer is simple. Turns out, `<redacted>` has a much higher soft limit than GKE. On
+GKE `ulimit -n` returns 1048576, on `<redacted>` 1073741816! But still there was
 something that troubled me at this point: I vaguely remembered a configuration
 option in HAProxy that limits the number of FDs that the process will use. The
 option is `fd-hard-limit` and
