@@ -5,7 +5,6 @@
   {{- $title := cond .IsHome $.Site.Title .Title -}}
   {{- $description := cond .IsPage (.Summary | plainify | htmlUnescape) $.Site.Params.description -}}
   {{- $url := .Permalink -}}
-  {{- $image := "https://ege.dev/img/logo.png" -}}
 
   {{ if .IsPage }}<meta name="description" content="{{ $description }}">{{ end }}
 
@@ -16,13 +15,11 @@
   <meta property="og:url" content="{{ $url }}" />
   <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ $description }}" />
-  <meta property="og:image" content="{{ $image }}" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ $title }}" />
   <meta name="twitter:description" content="{{ $description }}" />
-  <meta name="twitter:image" content="{{ $image }}" />
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
