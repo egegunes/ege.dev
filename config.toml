@@ -27,9 +27,17 @@ pygmentsCodefences  = true
     text = "archive"
 
 [[params.mainMenu]]
+    link = "/talks"
+    text = "talks"
+
+[[params.mainMenu]]
     link = "/index.xml"
-    text = "feed"
+    text = "rss"
 
 [[params.mainMenu]]
     link = "/about"
     text = "about"
+
+[[params.mainMenu]]
+    link = "https://github.com/egegunes"
+    text = "github"
