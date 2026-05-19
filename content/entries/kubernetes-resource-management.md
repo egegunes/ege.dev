@@ -3,7 +3,7 @@ title: "Kubernetes Resource Management"
 date: "2020-11-13"
 showDate: true
 draft: false
-aliases: [/post/kubernetes-resource-management/]
+aliases: [/post/kubernetes-resource-management/, /posts/kubernetes-resource-management/]
 ---
 
 I had the chance to listen to [Bekir Doğan’s

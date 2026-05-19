@@ -1,6 +1,7 @@
 ---
 title: "Cluster Statuses in Percona Kubernetes Operators"
 date: 2021-07-21T15:10:57+03:00
+aliases: [/posts/percona-operators-statuses/]
 ---
 
 In Kubernetes, all resources have a status field separated from their spec. The

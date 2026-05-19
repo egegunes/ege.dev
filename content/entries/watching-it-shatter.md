@@ -3,6 +3,7 @@ title: "watching it shatter"
 date: 2026-03-06
 tags: [""]
 categories: [""]
+aliases: [/posts/watching-it-shatter/]
 ---
 
 This week, just like the previous, was filled with PostgreSQL (PG). I’m still working on v2.9.0 release of the PG operator.

@@ -3,6 +3,7 @@ title: "Women Who Shaped Me"
 date: 2026-03-08
 tags: [""]
 categories: [""]
+aliases: [/posts/women-who-shaped-me/]
 ---
 
 I’m a self-taught engineer. While molding myself into an engineer, I haven’t

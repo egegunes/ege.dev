@@ -3,7 +3,7 @@ title: "New project: License Bot"
 date: "2018-11-28"
 showDate: true
 draft: false
-aliases: [/post/new-project-licensebot/]
+aliases: [/post/new-project-licensebot/, /posts/new-project-licensebot/]
 ---
 
 There is a new paranoid lawyer bot in town!

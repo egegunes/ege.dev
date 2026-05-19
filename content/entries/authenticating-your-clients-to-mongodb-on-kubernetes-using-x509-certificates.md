@@ -3,6 +3,7 @@ title: "Authenticating Your Clients to Mongodb on Kubernetes Using X509 Certific
 date: 2022-02-13T20:42:57+03:00
 showDate: true
 draft: false
+aliases: [/posts/authenticating-your-clients-to-mongodb-on-kubernetes-using-x509-certificates/]
 ---
 
 Managing database users and their passwords can be a hassle. Sometimes, they
