@@ -1,7 +1,11 @@
 ---
 title: "Encrypt PostgreSQL Data at Rest on Kubernetes"
 date: 2025-02-07T15:10:57+03:00
-aliases: [/posts/encrypt-postgresql-data-at-rest-on-kubernetes/]
+tags:
+- postgresql
+- kubernetes
+aliases:
+- /posts/encrypt-postgresql-data-at-rest-on-kubernetes/
 ---
 
 The upcoming Percona Operator for PostgreSQL v2.6.0 release introduces support

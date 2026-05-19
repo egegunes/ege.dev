@@ -3,7 +3,9 @@ title: "PortQuiz.net"
 date: 2020-04-19T13:14:57+03:00
 showDate: true
 draft: false
-aliases: [/post/portquiz-net/, /posts/portquiz-net/]
+aliases:
+- /post/portquiz-net/
+- /posts/portquiz-net/
 ---
 
 Recently, I was trying to connect to an Azure SQL database from a client's

@@ -2,7 +2,11 @@
 title: "gremlins in HAProxy"
 date: 2026-03-12
 draft: false
-aliases: [/posts/gremlins-in-haproxy/]
+tags:
+- mysql
+- kubernetes
+aliases:
+- /posts/gremlins-in-haproxy/
 ---
 
 We are in the process of certifying our operators for `<redacted>`. We started

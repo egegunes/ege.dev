@@ -1,7 +1,10 @@
 ---
 title: "Meet me at KubeCon Europe"
 date: 2026-02-25T15:10:57+03:00
-aliases: [/posts/meet-percona-at-kubecon/]
+tags:
+- kubernetes
+aliases:
+- /posts/meet-percona-at-kubecon/
 ---
 The Percona team is heading to KubeCon + CloudNativeCon Europe in Amsterdam,
 and I'd love to meet you in person!

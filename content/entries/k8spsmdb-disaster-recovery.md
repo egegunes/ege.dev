@@ -1,7 +1,11 @@
 ---
 title: "Disaster Recovery for MongoDB on Kubernetes"
 date: 2021-10-08T15:10:57+03:00
-aliases: [/posts/k8spsmdb-disaster-recovery/]
+tags:
+- mongodb
+- kubernetes
+aliases:
+- /posts/k8spsmdb-disaster-recovery/
 ---
 
 *This is a joint post with Sergey Pronin.*

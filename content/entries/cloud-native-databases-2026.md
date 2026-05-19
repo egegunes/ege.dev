@@ -1,5 +1,8 @@
 ---
+title: "My talk at the Cloud‑Native Databases 2026"
 date: 2026-03-16T14:31:03+03:00
+tags:
+- kubernetes
 ---
 
 My talk at the [Cloud‑Native Databases Conference](https://buildevcon.com/events/cloud-native-databases) is finally live!
