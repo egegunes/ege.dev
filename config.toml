@@ -1,7 +1,7 @@
 baseURL             = "https://ege.dev/"
 languageCode        = "en-us"
 title               = "ege.dev"
-theme               = "nostyleplease"
+theme               = "weblog"
 pygmentsStyle       = "monokai"
 pygmentsCodefences  = true
 
@@ -15,6 +15,7 @@ pygmentsCodefences  = true
     images          = ["tn.png"] # Image that shows on Twitter cards and Open Graph links to the site
     title           = "ege.dev"
     rss             = "ege.dev"
+   	theme_toggle = false
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -22,22 +23,20 @@ pygmentsCodefences  = true
 [imaging]
     quality = 75
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "archive"
+[permalinks]
+	entries = "/entries/:year/:month/:slug/"
 
-[[params.mainMenu]]
-    link = "/talks"
-    text = "talks"
+[pagination]
+	pagerSize = 10
 
-[[params.mainMenu]]
-    link = "/index.xml"
-    text = "rss"
+[[menu.main]]
+	name = "NOW"
+	weight = 1
+	identifier = "now"
+	url = "/now/"
 
-[[params.mainMenu]]
-    link = "/about"
-    text = "about"
-
-[[params.mainMenu]]
-    link = "https://github.com/egegunes"
-    text = "github"
+[[menu.main]]
+	name = "About"
+	weight = 2
+	identifier = "about"
+	url = "/about/"
