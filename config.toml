@@ -43,3 +43,9 @@ pygmentsCodefences  = true
 	weight = 2
 	identifier = "about"
 	url = "/about/"
+
+[[menu.main]]
+	name = "Talks"
+	weight = 3
+	identifier = "talks"
+	url = "/talks/"
