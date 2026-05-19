@@ -17,6 +17,9 @@ pygmentsCodefences  = true
     rss             = "ege.dev"
    	theme_toggle = false
 
+[params.reply]
+    text = "Reply to this post by sending an email to **egegunes [at] gmail [dot] com**."
+
 [markup.goldmark.renderer]
     unsafe = true
 
