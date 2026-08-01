@@ -49,3 +49,9 @@ pygmentsCodefences  = true
 	weight = 3
 	identifier = "talks"
 	url = "/talks/"
+
+[[menu.main]]
+	name = "Wiki"
+	weight = 4
+	identifier = "wiki"
+	url = "https://wiki.ege.dev"
